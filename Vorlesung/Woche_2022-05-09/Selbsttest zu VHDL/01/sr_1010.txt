@@ -1,0 +1,19 @@
+(3 DOWNTO 0): descending index range 
+[https://www.allaboutcircuits.com/technical-articles/std-logic-vector-data-type-in-vhdl-code/#:~:text=The%20VHDL%20keyword%20%E2%80%9Cstd_logic_vector%E2%80%9D%20defines,extending%20from%200%20to%202.]
+Index	3	2	1	0
+Value	1	0	1	0
+
+
+Index 	3	2	1	0
+Value	0	1	0	X
+
+Index 	3	2	1	0
+Value	0	1	0	0
+
+
+
+(3 TO 0): ascending index range 
+Index	0	1	2	3
+Value	1	0	1	0
+
+
