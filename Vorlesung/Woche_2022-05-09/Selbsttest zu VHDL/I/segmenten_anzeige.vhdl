@@ -26,7 +26,7 @@ begin
         elsif(sequence_in = 3) then
             detector_out <= "1111001";
         elsif(sequence_in = 4) then
-            detector_out <= "0110011";
+            detector_out <= "1111001";
         elsif(sequence_in = 5) then
             detector_out <= "1011011";
         elsif(sequence_in = 6) then

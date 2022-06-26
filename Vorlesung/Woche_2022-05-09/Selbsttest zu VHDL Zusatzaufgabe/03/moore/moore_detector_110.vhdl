@@ -31,7 +31,7 @@ begin
         end if;
     end process;
 
-    state_mover : process(current_state)
+    state_mover : process(sequence_in, current_state)
     begin
         if(current_state = s00) then
             if(sequence_in = '1') then

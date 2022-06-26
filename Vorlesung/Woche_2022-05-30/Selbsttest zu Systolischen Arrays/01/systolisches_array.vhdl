@@ -89,13 +89,13 @@ begin
 
         -- 1)
         zelle00 : systolische_zelle port map(
-            clock,
-            reset,
-            in_matrix00,
-            in_matrix10,
-            out_matrix00_r,
-            out_matrix00_b,
-            out_matrix00
+            clock => clock,
+            reset => reset,
+            input_left => in_matrix00,
+            input_top => in_matrix10,
+            output_right => out_matrix00_r,
+            output_bottom => out_matrix00_b,
+            cell_out => out_matrix00
         );
         -- 2)
         zelle01 : systolische_zelle port map(

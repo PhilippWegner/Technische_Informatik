@@ -13,6 +13,7 @@ entity mealy_detector_110 is
     );
 end mealy_detector_110;
 
+
 architecture behave of mealy_detector_110 is
     type mealy_fsm is (s0, s1, s2);
     signal current_state : mealy_fsm;

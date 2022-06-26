@@ -72,6 +72,8 @@ architecture test of mealy_detector_110_tb is
         sequence_in <= '0';
         wait for clock_period;
         sequence_in <= '1';
+        wait for 3*clock_period;
+        assert false report "Reached end of test";
         wait;
     end process;
 end test;
